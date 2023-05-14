@@ -34,7 +34,7 @@ function App() {
           return <div key={index}>
                 {/* {console.log()} */}
                 
-                <div>temperatura{x.data.instant.details.air_temperature}</div>
+                <div style={{height: 20}}>temperatura{x.data.instant.details.air_temperature}</div>
                 <div>skyggat{x.data.instant.details.cloud_area_fraction}</div>
                 <div>fuktighet{x.data.instant.details.relative_humidity}</div>
                 <div>vindretning{x.data.instant.details.wind_from_direction}</div>
